@@ -1,0 +1,98 @@
+body {
+	background: linear-gradient(141deg, #0fb8ad 0%, #BDBDBD 51%, #2cb5e8 75%);
+}
+
+textarea {
+  resize: none;
+}
+
+input {
+	border-radius: 5px;
+	height: 30px;
+	font-family: "Arial Black"
+}
+
+#content {
+	width: 98%;
+	height: 600px;
+	padding: 15px;
+	border: 1px solid black;
+
+}
+
+#painel {
+	width: 600px;
+	height: 550px;
+	float: right;
+}
+
+#saida {
+	width: 600px;
+	height: 550px;
+	border: 2px solid green;
+	border-radius: 4px;
+	color: #01DF01;
+	background-color: #1C1C1C;
+	padding: 5px;
+
+}
+
+#velocidade {
+	width: 50%;
+	height: 20px;
+}
+
+#som {
+	float: right;
+	width: 16px;
+	height: 16px;
+	background-image: url("../img/audio-volume-high.png");
+	cursor: pointer;
+}
+
+#infos {
+	font-family: "Arial Black"
+}
+
+#total, #total2 {
+	color: blue;
+}
+
+.bola {
+	width: 60px;
+	height: 50px;
+	float: left;
+	background-color: lightblue;
+	border: solid 1px black;
+	margin: 1px;
+	padding-top: 10px;
+	border-radius:100%;
+	text-align: center;
+	font-size: 30px;
+	box-shadow: 8px 8px 6px #888888;
+	cursor: pointer;
+} 
+
+.bola:hover{
+  transform: scale(1.1); /*ZOOM NA IMAGEN*/
+  border: 1px solid;
+  filter: brightness(140%);
+  box-shadow: 0 0 11px rgba(33,33,33,.5);
+}
+
+.marca {
+	font-family: "Arial Black";
+	padding-top: 10px;
+	width: 40px;
+	height: 30px;
+	box-shadow: 8px 8px 6px #888888;
+	border: 1px solid black;
+	float: left;
+	text-align: center;
+	background-color: #2cb5e8;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+
+/*#0fb8ad #2cb5e8*/
